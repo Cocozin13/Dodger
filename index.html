@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dodger</title>
+  <script type = 'module' src="src/app.js" defer></script>
+  <style>
+  @font-face {
+    font-family: 'silkscreennormal';
+    src: url('fontes/slkscr-webfont.woff2') format('woff2'),
+        url('fontes/slkscr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+    #screen {
+      border: 1px solid black;
+    }
+
+    img {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <img id ="player" src="imgs/player.png">
+  <img id="com" src="imgs/com.png"> 
+  <canvas id="screen" width="1350" height="500">
+  </canvas>
+</body>
+</html>
